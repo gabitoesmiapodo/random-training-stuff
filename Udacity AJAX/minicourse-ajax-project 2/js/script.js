@@ -17,7 +17,7 @@ function loadData() {
   const googleMapsURL = `${googleMapsAPI}key=${googleMapsAPIKey}&size=600x400&location=${address}&center=51.477222,0&zoom=10`;
 
   // Won't work, you have to pay, I won't pay
-  $body.append('<img class="bgimg" src="' + googleMapsURL + '">');
+  $body.append('<img class="bgimg" src="' + googleMapsURL + '" />');
 
   // load nytimes
   const nytAPI = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?';

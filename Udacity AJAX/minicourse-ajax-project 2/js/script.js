@@ -66,7 +66,7 @@ function loadData() {
       $wikiElem.html(articles);
     },
     error: (e) => {
-      console.log("Wikie ERROR!")
+      console.log("Wiki ERROR!")
       console.dir(e);
     }
   });

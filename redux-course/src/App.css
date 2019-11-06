@@ -1,0 +1,27 @@
+header {
+  margin: 0 0 20px;
+}
+
+.App {
+  align-items: flex-start;
+  background-color: #282c34;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+input {
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
